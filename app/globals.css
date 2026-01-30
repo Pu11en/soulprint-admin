@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.prose { max-width: none; }
+.prose h1, .prose h2, .prose h3 { color: #fff; }
+.prose p, .prose li { color: #aaa; }
+.prose code { background: #222; padding: 2px 6px; border-radius: 4px; }
