@@ -39,7 +39,7 @@ export default function SearchFilter({ profiles }: Props) {
       </div>
       
       {/* Profile Cards */}
-      <div className="grid gap-6">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {filtered.length === 0 ? (
           <div className="bg-zinc-900 rounded-lg p-8 text-center">
             <p className="text-gray-400">
